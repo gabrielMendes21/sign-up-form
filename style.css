@@ -167,6 +167,7 @@ main .right form input {
     border-radius: 5px;
     height: 1.5rem;
     width: 15rem;
+    padding: 1rem .5rem;
 }
 
 main .right form input:focus {
@@ -199,6 +200,12 @@ form + span {
 
 form + span a {
     color: rgb(122, 129, 134);
+}
+
+form .error {
+    color: red;
+    font-weight: normal;
+    font-size: .7rem;
 }
 
 footer img {
